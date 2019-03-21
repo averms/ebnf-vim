@@ -24,7 +24,6 @@ syn region ebnfTerminal matchgroup=delimiter start=/"/ end=/"/ contained
 syn region ebnfTerminal matchgroup=delimiter start=/'/ end=/'/ contained
 syn region ebnfComment start='(\*' end='\*)'
 
-
 hi link ebnfComment Comment
 hi link ebnfMetaIdentifier Identifier
 hi link ebnfSeperator ebnfSpecial
